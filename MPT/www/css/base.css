@@ -5,21 +5,31 @@ body {
 
 }
 
-/*APP NAME*/
+
 #app {
+    /* STYLES FOR THE NAME OF THE APP*/
     color: dimgray;
     padding-left: 0.5em;
 }
 
 
-tabs {
-    background-color: blueviolet;
-}
-
-/*STYLES FOR ALL HE ATOMS*/
 .atoms {
+    /*STYLES FOR ALL THE ATOMS*/
     background-color:#0094ff;
     height:75px; width:75px;
     text-align:center;
+    color:white;
+    padding-top:1px;
+    padding-bottom:1px;
+}
 
+.A{ 
+    /*Properties for Atomic no. & Atomic Mass*/                     
+    font-size:5px;  
+}
+
+.N {
+    /*Properties for all the names of the elements*/
+    font-size:23px;font-weight:bold; 
+    margin:-2px -2px -2px -2px;        
 }
