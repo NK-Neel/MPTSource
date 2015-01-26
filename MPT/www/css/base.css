@@ -1,0 +1,25 @@
+﻿/*THIS ALL CONTENT IS ADDED LATER BY ME TO DESIGN THE APP*/
+body {
+     overflow-x: scroll;
+     overflow-y: scroll;
+
+}
+
+/*APP NAME*/
+#app {
+    color: dimgray;
+    padding-left: 0.5em;
+}
+
+
+tabs {
+    background-color: blueviolet;
+}
+
+/*STYLES FOR ALL HE ATOMS*/
+.atoms {
+    background-color:#0094ff;
+    height:75px; width:75px;
+    text-align:center;
+
+}
