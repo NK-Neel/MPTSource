@@ -1,35 +1,139 @@
-﻿/*THIS ALL CONTENT IS ADDED LATER BY ME TO DESIGN THE APP*/
+/*THIS ALL CONTENT IS ADDED LATER BY ME TO DESIGN THE APP*/
 body {
      overflow-x: scroll;
      overflow-y: scroll;
-
 }
 
-
-#app {
+#name{
     /* STYLES FOR THE NAME OF THE APP*/
-    color: dimgray;
-    padding-left: 0.5em;
+    color:dimgray;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+section {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#p-n {
+    margin-top:-35px;
 }
 
 
-.atoms {
+
+.group{
+    /*HORIZONTAL LINE 18 NOs*/
+    padding-left:35px;
+}
+
+
+#p-el{
+    /*Periods elements*/
+    margin-bottom:50px;
+    margin-top:50px;
+    /*VERTCAL LINE 7 NOs*/
+    margin-left:20px;
+}
+
+#atom {
     /*STYLES FOR ALL THE ATOMS*/
-    background-color:#0094ff;
-    height:75px; width:75px;
+    height:100px;width:100px;
     text-align:center;
-    color:white;
+    border-radius:4px 4px;
+	margin:5px 5px 5px 5px;
     padding-top:1px;
     padding-bottom:1px;
+	}
+
+#atom:hover{
+   background-color:#F0F0F0;
 }
+	
+#group1{
+margin-left:50px; 
+margin-top:-600px;
+}
+	
+
 
 .A{ 
     /*Properties for Atomic no. & Atomic Mass*/                     
-    font-size:5px;  
+    font-size:14px;   text-decoration:none;
 }
 
 .N {
     /*Properties for all the names of the elements*/
     font-size:23px;font-weight:bold; 
-    margin:-2px -2px -2px -2px;        
+    margin: -12px -12px -12px -12px;    text-decoration:none;     
 }
+
+.other-non{
+/*OTHER NON-METALS */
+}
+
+.other-non:hover{
+/*OTHER NON-METALS */
+}
+
+.halogens{
+/*HALOGENS*/
+background-color:#0094ff;color:white;
+}
+
+.halogens:hover{
+/*HALOGENS*/
+color:#0094ff;
+}
+
+.noble{
+/*NOBLE GASES*/
+}
+
+.noble:hover{
+/*NOBLE GASES*/
+}
+
+.al-metals{
+/*ALKALI METALS*/
+background-color:#FF4000; color:white; 
+}
+
+.al-metals:hover{
+/*ALKALI METALS*/
+color:#FF4000;
+}
+
+.lan{
+/*LANTHANOIDS*/
+}
+
+
+.lan:hover{
+/*LANTHANOIDS*/
+}
+
+
+.act{
+/*ACTINOIDS*/
+}
+
+
+.act:hover{
+/*ACTINOIDS*/
+}
+
+.trans{
+/*TRANSITION METALS*/
+}
+
+.trans:hover{
+/*TRANSITION METALS*/
+}
+
+.post-trans{
+/*POST-TRANSITION METALS*/
+}
+
+
+
